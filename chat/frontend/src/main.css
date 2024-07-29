@@ -1,0 +1,20 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 576px !important;
+    padding: 5px !important;
+  }
+}
+
+#root {
+  display: flex !important;
+  flex-direction: column !important;
+  max-height: 100vh !important;
+  padding: 0 !important;
+}
+
+#root main {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow-y: auto !important;
+}
